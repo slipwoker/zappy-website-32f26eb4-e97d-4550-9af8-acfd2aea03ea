@@ -2739,12 +2739,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 }
 
-/* index-services */
 .index-services-section {
   position: relative;
   overflow: visible;
-  background-color: #F7F9FC;
-  background-image: linear-gradient(180deg, #FFFFFF 0%, #F7F9FC 100%);
+  background-color: #E2EAF4;
+  background-image: linear-gradient(180deg, #E8EEF5 0%, #DCE6F2 100%);
   color: var(--text-dark);
   padding: 96px 0 80px;
   direction: rtl;
@@ -2833,9 +2832,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   direction: rtl;
 }
 
-/* ── Service Card ── */
 .index-services-section .index-services-card {
-  background: #FFFFFF;
+  background: #F0F6FF;
   border: 1px solid var(--border-light);
   border-radius: 6px;
   padding: 28px 28px 24px;
@@ -2987,12 +2985,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   }
 }
 
-/* index-process */
 .index-process-section {
   position: relative;
   overflow: visible;
-  background-color: #F7F9FC;
-  background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F4F8 100%);
+  background-color: #E2EAF4;
+  background-image: linear-gradient(180deg, #E8EEF5 0%, #DCE6F2 100%);
   color: var(--text-dark);
   padding: 96px 24px 120px;
   direction: rtl;
@@ -3038,9 +3035,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   margin-bottom: 40px;
 }
 
-/* ── Panel Card ── */
 .index-process-section .index-process-panel {
-  background: #FFFFFF;
+  background: #F0F6FF;
   border: 1px solid var(--border-light);
   border-radius: 6px;
   box-shadow: 0 6px 20px rgba(24,46,79,0.10);
