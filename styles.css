@@ -2628,11 +2628,10 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   text-decoration: none;
 }
 
-/* Secondary Button */
 .index-hero-section .index-hero-btn-secondary {
   display: inline-block;
   background: transparent;
-  color: var(--text-dark);
+  color: #FFFFFF;
   padding: 12px 26px;
   border-radius: 6px;
   border: 1.5px solid var(--secondary);
@@ -2644,6 +2643,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   text-decoration: none;
   transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease, border-color 0.2s ease;
   white-space: nowrap;
+  border-color: rgba(255,255,255,0.6);
 }
 
 .index-hero-section .index-hero-btn-secondary:hover {
