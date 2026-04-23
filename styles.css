@@ -2535,27 +2535,28 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
-  padding: 140px 24px 40px;
+  padding: 60px 16px 32px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding-right: 0;
   padding-left: 0;
+  min-height: 100svh;
+  box-sizing: border-box;
 }
 
 .index-hero-section .index-hero-card {
-  background: rgba(10, 20, 45, 0.38);
+  background: rgba(10, 20, 45, 0.82);
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 6px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.22);
-  padding: 40px 40px 36px;
-  max-width: 560px;
+  padding: 28px 20px 24px;
+  max-width: 100%;
   width: 100%;
   text-align: right;
   color: var(--text-light);
 }
 
-/* Eyebrow Label */
 .index-hero-section .index-hero-eyebrow {
   display: inline-block;
   font-family: 'Rubik', sans-serif;
@@ -2563,30 +2564,32 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--primary);
+  color: #7DD3C8;
   margin-bottom: 14px;
   line-height: 1.4;
 }
 
 .index-hero-section .index-hero-h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: #F0F6FF;
   margin: 0 0 16px;
   text-align: right;
+  margin-bottom: 12px;
 }
 
 .index-hero-section .index-hero-subtitle {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.7;
   color: #C5D5E8;
   margin: 0 0 28px;
   text-align: right;
+  margin-bottom: 20px;
 }
 
 /* CTA Group */
@@ -7528,6 +7531,13 @@ to { opacity: 1; transform: scale(1); } }
 to { opacity: 1; transform: perspective(400px) rotateY(0); } }
 to { opacity: 1; transform: rotate(0) scale(1); } }
 
+
+.index-hero-section .index-hero-container {
+  padding-top: 60px !important;
+  align-items: flex-start !important;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
