@@ -2537,13 +2537,14 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   margin: 0 auto;
   padding: 140px 24px 40px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
+  padding-right: 8%;
 }
 
 .index-hero-section .index-hero-card {
-  background: rgba(15, 23, 42, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(15, 28, 55, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 6px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
   padding: 40px 40px 36px;
