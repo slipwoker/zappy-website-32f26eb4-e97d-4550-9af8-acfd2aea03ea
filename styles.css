@@ -7510,6 +7510,16 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+:root {
+  --bg-light: #F0F4F8;
+  --gradient-dark-section: linear-gradient(180deg, #F0F4F8 0%, #E8EEF5 100%);
+  --gradient-light-section: linear-gradient(180deg, #F0F4F8 0%, #E8EEF5 100%);
+}
+
+body {
+  background-color: #F0F4F8;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
