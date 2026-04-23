@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+מערכת Access תקועה? אנחנו מתקנים, משדרגים ומחזירים אותה לפעולה מלאה — בלי להחליף הכל מחדש. פתרון מהיר, חסכוני ומקצועי לעסקים וארגונים בכל רחבי ישראל. פנה אלינו עוד היום!
+
+### שירותים
+https://example.com/services
+תיקון תקלות, שדרוג גרסאות, העברת נתונים והתאמות מותאמות אישית — כל שירותי Microsoft Access במקום אחד. חסוך זמן וכסף עם מומחה שמכיר את המערכת שלך לעומק. גלה את מגוון השירותים שלנו!
+
+### אודות
+https://example.com/about
+היכר את המומחה שמאחורי אריאל פיתוח תוכנה — מעל 25 שנות התמחות בלעדית ב-Microsoft Access, עם מאות פרויקטים מוצלחים לעסקים וארגונים ברחבי ישראל. כשהניסיון פוגש את המחויבות, מקבלים תוצאות אמיתיות.
+
+### צור קשר
+https://example.com/contact
+אל תתנו לתקלה במסד הנתונים לעצור את העסק שלכם. צרו קשר עם מומחה Access זמין ומנוסה לקבלת ייעוץ מהיר ותמיכה מרחוק — מגיבים מהר, פותרים מהר. שלחו פנייה עכשיו ונחזור אליכם בהקדם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
