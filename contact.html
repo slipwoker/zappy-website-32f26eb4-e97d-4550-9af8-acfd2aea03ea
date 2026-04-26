@@ -343,7 +343,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0523845555" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -750,7 +750,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0523845555';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -818,7 +818,7 @@
         </div>
         <div class="contact-intro-chip" role="listitem">
           <span class="chip-icon" aria-hidden="true"><i class="fa fa-map-marker"></i></span>
-          <span class="chip-label">פעיל בכל רחבי ישראל</span>
+          <span class="chip-label">קרני יהודה 135/17, ירושלים, ישראל, 97293, ישראל</span>
         </div>
       </div>
     </div>
@@ -848,9 +848,9 @@
         <div class="ccm-card-body">
           <h3 class="ccm-card-title">טלפון</h3>
           <p class="ccm-card-text">מוזמנים להתקשר ישירות לקבלת מענה מהיר. זמין בימים א׳–ה׳ בשעות העבודה. לעיתים קרובות ניתן להתחיל לאבחן את הבעיה כבר בשיחה הראשונה.</p>
-          <a href="tel:[business_phone]" class="ccm-contact-link">
+          <a href="tel:0523845555" class="ccm-contact-link">
             <i class="fa fa-phone" aria-hidden="true"></i>
-            <span>[business_phone]</span>
+            <span>0523845555</span>
           </a>
         </div>
       </article>
@@ -1014,7 +1014,7 @@
         <div class="contact-reassurance-contact-info">
           <div class="contact-info-item">
             <i class="fas fa-phone contact-info-icon" aria-hidden="true"></i>
-            <a href="tel:[business_phone]" class="contact-info-link">[business_phone]</a>
+            <a href="tel:0523845555" class="contact-info-link">0523845555</a>
           </div>
           <div class="contact-info-item">
             <i class="fas fa-envelope contact-info-icon" aria-hidden="true"></i>
@@ -1022,7 +1022,7 @@
           </div>
           <div class="contact-info-item">
             <i class="fab fa-whatsapp contact-info-icon" aria-hidden="true"></i>
-            <a href="https://wa.me/[whatsapp_handle]" target="_blank" class="contact-info-link">שלח הודעה ב-WhatsApp</a>
+            <a href="https://wa.me/972523845555" target="_blank" class="contact-info-link">שלח הודעה ב-WhatsApp</a>
           </div>
         </div>
 
@@ -1093,9 +1093,9 @@
           </div>
           <p class="footer-tagline">מומחים לפיתוח תוכנה, מסדי נתונים ומערכות מידע עסקיות. אמינות טכנית ורציפות עסקית — בכל פרויקט.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram" class="social-link"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" class="social-link" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/972523845555" aria-label="WhatsApp" class="social-link"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -1125,10 +1125,10 @@
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+              <span class="contact-text"><a href="tel:0523845555">0523845555</a></span>
             </li>
-            <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-              <span class="contact-text">[business_address]</span></a></li>
+            <li><a href="/" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+              <span class="contact-text">קרני יהודה 135/17, ירושלים, ישראל, 97293, ישראל</span></a></li>
           </ul>
         </div>
 
@@ -1155,7 +1155,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972523845555" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
